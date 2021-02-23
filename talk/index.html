@@ -9,7 +9,7 @@
     <meta name="description" content="温故而知新" />
     <link rel="stylesheet" href="https://fangxiu0525.github.io/styles/main.css">
     <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <title>Gridea</title>
+    <title>方脩的博客</title>
 </head>
 
 <body>
@@ -83,9 +83,9 @@
         <a onclick="showAaplayer()"><i style="font-size: 20px;"><img
                     src='https://fangxiu0525.github.io/media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
         <div class="avatar-border">
-            <img src="https://fangxiu0525.github.io/images/avatar.png?v=1613964396899" class="avatar">
+            <img src="https://fangxiu0525.github.io/images/avatar.png?v=1614054346754" class="avatar">
         </div>
-        <div class="sitename">Gridea</div>
+        <div class="sitename">方脩的博客</div>
         <span class="describtion" data-text='["温故而知新"]'>&nbsp;</span>
         
         <div class="search">
@@ -171,10 +171,6 @@
                 href="https://github.com/850552586/gridea-theme-fog">Fog</a>
             <div>
                 
-                <div id="sitegotimeDate">载入天数...</div>
-                <div id="sitegotimes">载入时分秒...</div>
-                <div id="cussitetime" style="display:none">02/02/2020</div>
-                
             </div>
             <div>
                 
@@ -187,38 +183,6 @@
 
     </div>
 </body>
-
-<script>
-    //----------------------站点运行时间
-    var now = new Date();
-
-    function createtime() {
-        var sitegotime = document.getElementById("cussitetime").innerHTML + " 00:00:00";
-        var grt = new Date(sitegotime); //此处修改你的建站时间或者网站上线时间 
-        now.setTime(now.getTime() + 250);
-        days = (now - grt) / 1000 / 60 / 60 / 24;
-        dnum = Math.floor(days);
-        hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum);
-        hnum = Math.floor(hours);
-        if (String(hnum).length == 1) {
-            hnum = "0" + hnum;
-        }
-        minutes = (now - grt) / 1000 / 60 - (24 * 60 * dnum) - (60 * hnum);
-        mnum = Math.floor(minutes);
-        if (String(mnum).length == 1) {
-            mnum = "0" + mnum;
-        }
-        seconds = (now - grt) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
-        snum = Math.round(seconds);
-        if (String(snum).length == 1) {
-            snum = "0" + snum;
-        }
-        document.getElementById("sitegotimeDate").innerHTML = "本站已安全运行 " + dnum + " 天 ";
-        document.getElementById("sitegotimes").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
-    }
-
-    let intervalId = setInterval("createtime()", 250);
-</script>
 
     </div>
 
@@ -424,7 +388,7 @@
                 <img src="' + talks[i].img + '" class="talkimg"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://fangxiu0525.github.io/images/avatar.png?v=1613964396899">\
+                        <img class="intro1" src="https://fangxiu0525.github.io/images/avatar.png?v=1614054346754">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -437,7 +401,7 @@
             <div class="talk" v-for="t in talks"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://fangxiu0525.github.io/images/avatar.png?v=1613964396899">\
+                        <img class="intro1" src="https://fangxiu0525.github.io/images/avatar.png?v=1614054346754">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -836,7 +800,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a data-pjax class="navbar-brand" href="https://fangxiu0525.github.io">Gridea&nbsp;&nbsp;|</a>
+      <a data-pjax class="navbar-brand" href="https://fangxiu0525.github.io">方脩的博客&nbsp;&nbsp;|</a>
       <span class="navbar-brand mbapspan"><i id="mbaplayer" class="fa fa-play-circle-o" aria-hidden="true"
           style="font-size: 28px;top: 12px;position: absolute;" onclick="aplayerPlay();"></i></span>
     </div>
@@ -961,7 +925,7 @@
     function aplayerInit() {
         var aplayerid = "2079243644";
         var aplayerserver = "netease";
-        var aplayerorder = "random";
+        var aplayerorder = "default";
         var aplayerautoplay = "true";
         var aplayer = $("#myaplayer");
         aplayer.attr("server", aplayerserver);
@@ -1090,7 +1054,7 @@
                 <img src="' + talks[i].img + '" class="talkimg"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://fangxiu0525.github.io/images/avatar.png?v=1613964396899">\
+                        <img class="intro1" src="https://fangxiu0525.github.io/images/avatar.png?v=1614054346754">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -1103,7 +1067,7 @@
             <div class="talk" v-for="t in talks"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://fangxiu0525.github.io/images/avatar.png?v=1613964396899">\
+                        <img class="intro1" src="https://fangxiu0525.github.io/images/avatar.png?v=1614054346754">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\

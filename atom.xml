@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://fangxiu0525.github.io</id>
+    <id>https://www.fangxiu.world</id>
     <title>方脩的博客</title>
-    <updated>2021-02-23T14:48:17.712Z</updated>
+    <updated>2021-02-23T18:02:35.536Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://fangxiu0525.github.io"/>
-    <link rel="self" href="https://fangxiu0525.github.io/atom.xml"/>
+    <link rel="alternate" href="https://www.fangxiu.world"/>
+    <link rel="self" href="https://www.fangxiu.world/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://fangxiu0525.github.io/images/avatar.png</logo>
-    <icon>https://fangxiu0525.github.io/favicon.ico</icon>
+    <logo>https://www.fangxiu.world/images/avatar.png</logo>
+    <icon>https://www.fangxiu.world/favicon.ico</icon>
     <rights>All rights reserved 2021, 方脩的博客</rights>
     <entry>
         <title type="html"><![CDATA[写在大二下学期开始]]></title>
-        <id>https://fangxiu0525.github.io/post/xue-qi-kai-shi/</id>
-        <link href="https://fangxiu0525.github.io/post/xue-qi-kai-shi/">
+        <id>https://www.fangxiu.world/post/xue-qi-kai-shi/</id>
+        <link href="https://www.fangxiu.world/post/xue-qi-kai-shi/">
         </link>
         <updated>2021-02-28T14:31:45.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -23,8 +23,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[第一篇博客]]></title>
-        <id>https://fangxiu0525.github.io/post/blog-1/</id>
-        <link href="https://fangxiu0525.github.io/post/blog-1/">
+        <id>https://www.fangxiu.world/post/blog-1/</id>
+        <link href="https://www.fangxiu.world/post/blog-1/">
         </link>
         <updated>2021-02-23T13:37:24.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -35,8 +35,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[test]]></title>
-        <id>https://fangxiu0525.github.io/post/test-2/</id>
-        <link href="https://fangxiu0525.github.io/post/test-2/">
+        <id>https://www.fangxiu.world/post/test-2/</id>
+        <link href="https://www.fangxiu.world/post/test-2/">
         </link>
         <updated>2021-02-23T05:11:52.000Z</updated>
         <content type="html"><![CDATA[<p>test<br>
@@ -55,8 +55,8 @@ test</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[TEST]]></title>
-        <id>https://fangxiu0525.github.io/post/test-1/</id>
-        <link href="https://fangxiu0525.github.io/post/test-1/">
+        <id>https://www.fangxiu.world/post/test-1/</id>
+        <link href="https://www.fangxiu.world/post/test-1/">
         </link>
         <updated>2021-02-23T05:08:55.000Z</updated>
         <content type="html"><![CDATA[<p>TEST<br>

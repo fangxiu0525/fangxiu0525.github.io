@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.fangxiu.world</id>
     <title>方脩的博客</title>
-    <updated>2021-02-23T18:11:01.305Z</updated>
+    <updated>2021-02-23T19:24:31.465Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.fangxiu.world"/>
     <link rel="self" href="https://www.fangxiu.world/atom.xml"/>
@@ -31,46 +31,6 @@
 <p>不知道写点什么，放张我老婆图片吧。<br>
 <a href="https://imgchr.com/i/yT3BN9"><img src="https://s3.ax1x.com/2021/02/21/yT3BN9.jpg" alt="yT3BN9.jpg" loading="lazy"></a></p>
 </blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[test]]></title>
-        <id>https://www.fangxiu.world/post/test-2/</id>
-        <link href="https://www.fangxiu.world/post/test-2/">
-        </link>
-        <updated>2021-02-23T05:11:52.000Z</updated>
-        <content type="html"><![CDATA[<p>test<br>
-test<br>
-test<br>
-test<br>
-test<br>
-test<br>
-test<br>
-test<br>
-test<br>
-test<br>
-test<br>
-test</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TEST]]></title>
-        <id>https://www.fangxiu.world/post/test-1/</id>
-        <link href="https://www.fangxiu.world/post/test-1/">
-        </link>
-        <updated>2021-02-23T05:08:55.000Z</updated>
-        <content type="html"><![CDATA[<p>TEST<br>
-TEST<br>
-TEST<br>
-TEST<br>
-TEST<br>
-TEST<br>
-TEST<br>
-TEST<br>
-TEST<br>
-TEST<br>
-TEST<br>
-TEST</p>
 ]]></content>
     </entry>
 </feed>

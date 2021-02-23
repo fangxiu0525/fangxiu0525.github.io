@@ -83,7 +83,7 @@
         <a onclick="showAaplayer()"><i style="font-size: 20px;"><img
                     src='https://fangxiu0525.github.io/media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
         <div class="avatar-border">
-            <img src="https://fangxiu0525.github.io/images/avatar.png?v=1614054445413" class="avatar">
+            <img src="https://fangxiu0525.github.io/images/avatar.png?v=1614055895719" class="avatar">
         </div>
         <div class="sitename">方脩的博客</div>
         <span class="describtion" data-text='["温故而知新"]'>&nbsp;</span>
@@ -178,6 +178,10 @@
                 href="https://github.com/850552586/gridea-theme-fog">Fog</a>
             <div>
                 
+                <div id="sitegotimeDate">载入天数...</div>
+                <div id="sitegotimes">载入时分秒...</div>
+                <div id="cussitetime" style="display:none">02/02/2020</div>
+                
             </div>
             <div>
                 
@@ -190,6 +194,38 @@
 
     </div>
 </body>
+
+<script>
+    //----------------------站点运行时间
+    var now = new Date();
+
+    function createtime() {
+        var sitegotime = document.getElementById("cussitetime").innerHTML + " 00:00:00";
+        var grt = new Date(sitegotime); //此处修改你的建站时间或者网站上线时间 
+        now.setTime(now.getTime() + 250);
+        days = (now - grt) / 1000 / 60 / 60 / 24;
+        dnum = Math.floor(days);
+        hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum);
+        hnum = Math.floor(hours);
+        if (String(hnum).length == 1) {
+            hnum = "0" + hnum;
+        }
+        minutes = (now - grt) / 1000 / 60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes);
+        if (String(mnum).length == 1) {
+            mnum = "0" + mnum;
+        }
+        seconds = (now - grt) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds);
+        if (String(snum).length == 1) {
+            snum = "0" + snum;
+        }
+        document.getElementById("sitegotimeDate").innerHTML = "本站已安全运行 " + dnum + " 天 ";
+        document.getElementById("sitegotimes").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+    }
+
+    let intervalId = setInterval("createtime()", 250);
+</script>
 
     </div>
 
@@ -363,7 +399,7 @@
         let talkindex = 0;
         get();
         function get() {
-            var t = JSON.parse('[]');
+            var t = JSON.parse('[{"author":"123","img":"","text":"123","time":"123"}]');
             talkindex = t.length - 1;
             for (var i = 0; i <= t.length - 1; i++) {
                 var d = {};
@@ -395,7 +431,7 @@
                 <img src="' + talks[i].img + '" class="talkimg"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://fangxiu0525.github.io/images/avatar.png?v=1614054445413">\
+                        <img class="intro1" src="https://fangxiu0525.github.io/images/avatar.png?v=1614055895719">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -408,7 +444,7 @@
             <div class="talk" v-for="t in talks"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://fangxiu0525.github.io/images/avatar.png?v=1614054445413">\
+                        <img class="intro1" src="https://fangxiu0525.github.io/images/avatar.png?v=1614055895719">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -999,16 +1035,6 @@
 
 </html>
         
-            <script type="text/javascript">
-                var message_Path = '/live2d/'
-                var home_Path = document.getElementById("domainname").innerHTML+"/"; //此处修改为你的域名，必须带斜杠
-            </script>
-            <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/js/live2d.js"></script>
-            <script type="text/javascript" src="https://fangxiu0525.github.io/media/live2d/js/message.js"></script>
-            <script type="text/javascript">
-                loadlive2d("live2d", "https://fangxiu0525.github.io/media/live2d/assets/tororo.model.json");
-            </script>
-            
 <script>
         var bgchoice=$('#bgchoice').html();
         var bg = $('#bg');
@@ -1031,7 +1057,7 @@
     add();
 
     function get() {
-        var t = JSON.parse('[]');
+        var t = JSON.parse('[{"author":"123","img":"","text":"123","time":"123"}]');
         talkindex = t.length - 1;
         for (var i = 0; i <=t.length - 1; i++) {
             var d = {};
@@ -1063,7 +1089,7 @@
                 <img src="' + talks[i].img + '" class="talkimg"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://fangxiu0525.github.io/images/avatar.png?v=1614054445413">\
+                        <img class="intro1" src="https://fangxiu0525.github.io/images/avatar.png?v=1614055895719">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -1076,7 +1102,7 @@
             <div class="talk" v-for="t in talks"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://fangxiu0525.github.io/images/avatar.png?v=1614054445413">\
+                        <img class="intro1" src="https://fangxiu0525.github.io/images/avatar.png?v=1614055895719">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\

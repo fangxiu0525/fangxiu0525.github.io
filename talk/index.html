@@ -52,7 +52,7 @@
     
     
     <script>
-        let donateChoice = false
+        let donateChoice = true
     </script>
     
     
@@ -98,7 +98,7 @@
         <a onclick="showAaplayer()"><i style="font-size: 20px;"><img
                     src='https://www.fangxiu.world/media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
         <div class="avatar-border">
-            <img src="https://www.fangxiu.world/images/avatar.png?v=1614103538213" class="avatar">
+            <img src="https://www.fangxiu.world/images/avatar.png?v=1614103754347" class="avatar">
         </div>
         <div class="sitename">方脩的博客</div>
         <span class="describtion" data-text='["温故而知新"]'>&nbsp;</span>
@@ -436,7 +436,7 @@
         let talkindex = 0;
         get();
         function get() {
-            var t = JSON.parse('[{"author":"test","img":"https://s3.ax1x.com/2021/02/21/yT3BN9.jpg","text":"test","time":"2021/02/23"},{"author":"方脩","img":"https://s3.ax1x.com/2021/02/21/yT3BN9.jpg","text":"因为主题最新V0.9用着不尽人意，不知道是什么问题，只能用稳定的V0.7，好难受，坐等V1.0。","time":"2021/02/23"}]');
+            var t = JSON.parse('[{"author":"test","img":"https://s3.ax1x.com/2021/02/21/yT3BN9.jpg","text":"test","time":"2021/02/23"},{"author":"方脩","img":"https://s3.ax1x.com/2021/02/21/yT3BN9.jpg","text":"因为主题最新V0.9用着不尽人意，不知道是什么问题，只能用稳定的V0.7，好难受，坐等V1.0。","time":"2021/02/23"},{"author":"方脩","img":"https://s3.ax1x.com/2021/02/21/yT3BN9.jpg","text":"我知道问题在哪了，现在完美解决，用回V0.9，好耶。","time":"2021/02/24"}]');
             talkindex = t.length - 1;
             for (var i = 0; i <= t.length - 1; i++) {
                 var d = {};
@@ -468,7 +468,7 @@
                 <img src="' + talks[i].img + '" class="talkimg"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://www.fangxiu.world/images/avatar.png?v=1614103538213">\
+                        <img class="intro1" src="https://www.fangxiu.world/images/avatar.png?v=1614103754347">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -481,7 +481,7 @@
             <div class="talk" v-for="t in talks"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://www.fangxiu.world/images/avatar.png?v=1614103538213">\
+                        <img class="intro1" src="https://www.fangxiu.world/images/avatar.png?v=1614103754347">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -1104,7 +1104,7 @@
     add();
 
     function get() {
-        var t = JSON.parse('[{"author":"test","img":"https://s3.ax1x.com/2021/02/21/yT3BN9.jpg","text":"test","time":"2021/02/23"},{"author":"方脩","img":"https://s3.ax1x.com/2021/02/21/yT3BN9.jpg","text":"因为主题最新V0.9用着不尽人意，不知道是什么问题，只能用稳定的V0.7，好难受，坐等V1.0。","time":"2021/02/23"}]');
+        var t = JSON.parse('[{"author":"test","img":"https://s3.ax1x.com/2021/02/21/yT3BN9.jpg","text":"test","time":"2021/02/23"},{"author":"方脩","img":"https://s3.ax1x.com/2021/02/21/yT3BN9.jpg","text":"因为主题最新V0.9用着不尽人意，不知道是什么问题，只能用稳定的V0.7，好难受，坐等V1.0。","time":"2021/02/23"},{"author":"方脩","img":"https://s3.ax1x.com/2021/02/21/yT3BN9.jpg","text":"我知道问题在哪了，现在完美解决，用回V0.9，好耶。","time":"2021/02/24"}]');
         talkindex = t.length - 1;
         for (var i = 0; i <=t.length - 1; i++) {
             var d = {};
@@ -1136,7 +1136,7 @@
                 <img src="' + talks[i].img + '" class="talkimg"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://www.fangxiu.world/images/avatar.png?v=1614103538213">\
+                        <img class="intro1" src="https://www.fangxiu.world/images/avatar.png?v=1614103754347">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -1149,7 +1149,7 @@
             <div class="talk" v-for="t in talks"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://www.fangxiu.world/images/avatar.png?v=1614103538213">\
+                        <img class="intro1" src="https://www.fangxiu.world/images/avatar.png?v=1614103754347">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\

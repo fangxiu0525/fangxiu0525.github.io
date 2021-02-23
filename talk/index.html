@@ -21,7 +21,7 @@
     
     <div id=side>
         <div class="avatar-border">
-            <img src="https://fangxiu0525.github.io/images/avatar.png?v=1614076807029" class="avatar">
+            <img src="https://fangxiu0525.github.io/images/avatar.png?v=1614077020247" class="avatar">
         </div>
         <div class="sitename">方脩的博客</div>
         <span class="describtion" data-text='["温故而知新"]'>&nbsp;</span>
@@ -99,7 +99,7 @@
     
     <div class="sitetime"><div id="sitegotimeDate">载入天数...</div>
     <div id="sitegotimes">载入时分秒...</div></div>
-    <div id="cussitetime" style="display:none">25/05/2002</div>
+    <div id="cussitetime" style="display:none">02/02/2020</div>
     
     
     </div>
@@ -432,16 +432,6 @@
 
 </html>
         
-            <script type="text/javascript">
-                var message_Path = '/live2d/'
-                var home_Path = document.getElementById("domainname").innerHTML+"/"; //此处修改为你的域名，必须带斜杠
-            </script>
-            <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/js/live2d.js"></script>
-            <script type="text/javascript" src="https://fangxiu0525.github.io/media/live2d/js/message.js"></script>
-            <script type="text/javascript">
-                loadlive2d("live2d", "https://fangxiu0525.github.io/media/live2d/assets/tororo.model.json");
-            </script>
-            
 
 <script>
         var bgchoice=$('#bgchoice').html();
@@ -465,7 +455,7 @@
     add();
 
     function get() {
-        var t = JSON.parse('[{"author":"123","img":"","text":"123","time":"123"}]');
+        var t = JSON.parse('[{"author":"test","img":"https://s3.ax1x.com/2021/02/21/yT3BN9.jpg","text":"test","time":"test"}]');
         talkindex = t.length - 1;
         for (var i = t.length - 1; i >= 0; i--) {
             var d = {};
@@ -497,7 +487,7 @@
                 <img src="' + talks[i].img + '" class="talkimg"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://fangxiu0525.github.io/images/avatar.png?v=1614076807029">\
+                        <img class="intro1" src="https://fangxiu0525.github.io/images/avatar.png?v=1614077020247">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -510,7 +500,7 @@
             <div class="talk" v-for="t in talks"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://fangxiu0525.github.io/images/avatar.png?v=1614076807029">\
+                        <img class="intro1" src="https://fangxiu0525.github.io/images/avatar.png?v=1614077020247">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\

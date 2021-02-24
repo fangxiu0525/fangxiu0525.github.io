@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.fangxiu.world</id>
     <title>方脩的博客</title>
-    <updated>2021-02-24T10:45:53.211Z</updated>
+    <updated>2021-02-24T11:06:39.847Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.fangxiu.world"/>
     <link rel="self" href="https://www.fangxiu.world/atom.xml"/>
@@ -39,7 +39,7 @@
 <p>CODING 和 GitHub 主要功能类似，都是提供代码托管服务。由于 Coding 为腾讯代理，在国内的服务器较多，所以使用 Coding Page 运行速度要比 GitHub Page 快很多。使用 CODING 静态网站服务将享受一定的限时免费额度，免费额度自领取后 6 个月（以 180 天计）内有效，详情见<a href="https://help.coding.net/docs/pages/price.html"><strong>计费说明</strong></a>。<br>
 <strong>本文写于2021年2月24日，如有变动，请自行变通</strong></p>
 </blockquote>
-<h2 id="coding">Coding</h2>
+<h2 id="coding配置">Coding配置</h2>
 <blockquote>
 <p>登录地址：<a href="https://e.coding.net/login">https://e.coding.net/login</a><br>
 注册地址：<a href="https://e.coding.net/register">https://e.coding.net/register</a><br>
@@ -58,6 +58,11 @@
 <img src="https://sc03.alicdn.com/kf/Uc7b4a81c54a04075bf85e35344b17b93L.jpg" alt="007.png" loading="lazy"><br>
 然后点右上角头像，选择<strong>个人账户设置</strong>，选择<strong>访问令牌</strong>，选择<strong>新建令牌</strong>。<br>
 <img src="https://ae02.alicdn.com/kf/Uf82156f389d84255b164f6139fe0ad53b.jpg" alt="008.png" loading="lazy"></p>
+</blockquote>
+<h2 id="github配置">GitHub配置</h2>
+<blockquote>
+<p>登录地址：<a href="https://github.com/login/">https://github.com/login/</a><br>
+注册地址：<a href="https://github.com/join/">https://github.com/join/</a></p>
 </blockquote>
 <h2 id="gridea设置">Gridea设置</h2>
 <blockquote>

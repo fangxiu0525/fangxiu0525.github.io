@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.fangxiu.world</id>
     <title>方脩的博客</title>
-    <updated>2021-02-24T03:32:53.456Z</updated>
+    <updated>2021-02-24T07:39:39.150Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.fangxiu.world"/>
     <link rel="self" href="https://www.fangxiu.world/atom.xml"/>
@@ -18,6 +18,67 @@
         <updated>2021-02-28T14:31:45.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
 <p>不知不觉，已经大二了，回想起这一年半，总觉得有些闹心。英语一直不好，还不时逃课，学习没搞好，对象也没有，还真是失败呢。</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gridea+Github/Coding搭建个人静态博客]]></title>
+        <id>https://www.fangxiu.world/post/build-blog/</id>
+        <link href="https://www.fangxiu.world/post/build-blog/">
+        </link>
+        <updated>2021-02-24T03:42:48.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="介绍">介绍</h2>
+<blockquote>
+<ul>
+<li><a href="https://gridea.dev/">Gridea</a>一个静态博客写作客户端。</li>
+<li><a href="https://github.com/">GitHub</a>全球最大的社交编程及代码托管网站。</li>
+<li><a href="https://coding.net/">Coding</a>一站式软件研发管理平台。</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>CODING 和 GitHub 主要功能类似，都是提供代码托管服务。由于 Coding 为腾讯代理，在国内的服务&gt;器较多，所以使用 Coding Page 运行速度要比 GitHub Page 快很多。使用 CODING 静态网站服务&gt;将享受一定的限时免费额度，免费额度自领取后 6 个月（以 180 天计）内有效，详情见<a href="https://help.coding.net/docs/pages/price.html"><strong>计费说明</strong></a>。<br>
+<strong>本文写于2021年2月24日，如有变动，请自行变通</strong></p>
+</blockquote>
+<h2 id="coding">Coding</h2>
+<blockquote>
+<p>登录地址：<a href="https://e.coding.net/login">https://e.coding.net/login</a><br>
+注册地址：<a href="https://e.coding.net/register">https://e.coding.net/register</a><br>
+下面是登录之后的界面。<br>
+<img src="https://ae04.alicdn.com/kf/U7cf1f0c0ada5401386e42adfb0917015U.jpg" alt="001.png" loading="lazy"><br>
+项目选择<strong>代码托管项目</strong>。<br>
+<img src="https://ae04.alicdn.com/kf/U84d103e6a9674dcbb051997e83709f59v.jpg" alt="002.png" loading="lazy"><br>
+<img src="https://sc03.alicdn.com/kf/Uad70edd1865944b09660b2877be70343f.jpg" alt="003.png" loading="lazy"><br>
+项目右下角<strong>项目设置</strong>--&gt;<strong>项目与成员</strong>--&gt;<strong>功能开关</strong>--&gt;打开<strong>持续部署</strong>，退出项目设置。<br>
+<img src="https://sc02.alicdn.com/kf/Ubfec4a7b9013416f898c9591b3105b4ar.jpg" alt="004.png" loading="lazy"><br>
+新建网站选择<strong>静态网站</strong>。<br>
+<img src="https://ae03.alicdn.com/kf/U056f93b924d64d919b7fb92e725ed86eD.jpg" alt="005.png" loading="lazy"><br>
+查看网站详情。<br>
+<img src="https://ae03.alicdn.com/kf/U09b7b5da5a5a4fa3b663af4298a81600j.jpg" alt="006.png" loading="lazy"><br>
+返回<strong>代码仓库</strong>，选择网站发布代码仓库，选择<strong>设置</strong>。<br>
+<img src="https://sc03.alicdn.com/kf/Uc7b4a81c54a04075bf85e35344b17b93L.jpg" alt="007.png" loading="lazy"><br>
+然后点右上角头像，选择<strong>个人账户设置</strong>，选择<strong>访问令牌</strong>，选择<strong>新建令牌</strong>。<br>
+<img src="https://ae02.alicdn.com/kf/Uf82156f389d84255b164f6139fe0ad53b.jpg" alt="008.png" loading="lazy"></p>
+</blockquote>
+<h2 id="gridea设置">Gridea设置</h2>
+<blockquote>
+<p>下载安装<br>
+略<br>
+设置本地路径<br>
+<img src="https://ae02.alicdn.com/kf/Ufea2285320be4c6191f6f48b2dffa266g.jpg" alt="009.png" loading="lazy"><br>
+<img src="https://ae04.alicdn.com/kf/Uced55c5de4ed4caaad7b1567268833c5L.jpg" alt="010.png" loading="lazy"><br>
+网站发布管理<br>
+<img src="https://ae03.alicdn.com/kf/Ubb150dbdcafe4cb5ba9e67bb7cc5e288t.jpg" alt="011.png" loading="lazy"></p>
+<ul>
+<li>
+<h3 id="coding-gridea远程连接设置">Coding-Gridea远程连接设置</h3>
+</li>
+</ul>
+<figure data-type="image" tabindex="1"><img src="https://ae02.alicdn.com/kf/Ud6ccc01cb8d64704838bf9b6366e980dq.jpg" alt="012.png" loading="lazy"></figure>
+<ul>
+<li>
+<h3 id="github-gridea远程连接设置">GitHub-Gridea远程连接设置</h3>
+</li>
+</ul>
 </blockquote>
 ]]></content>
     </entry>

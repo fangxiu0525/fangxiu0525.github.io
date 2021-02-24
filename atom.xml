@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.fangxiu.world</id>
     <title>方脩的博客</title>
-    <updated>2021-02-24T11:06:39.847Z</updated>
+    <updated>2021-02-24T11:32:08.354Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.fangxiu.world"/>
     <link rel="self" href="https://www.fangxiu.world/atom.xml"/>
@@ -62,7 +62,17 @@
 <h2 id="github配置">GitHub配置</h2>
 <blockquote>
 <p>登录地址：<a href="https://github.com/login/">https://github.com/login/</a><br>
-注册地址：<a href="https://github.com/join/">https://github.com/join/</a></p>
+注册地址：<a href="https://github.com/join/">https://github.com/join/</a><br>
+下面是登录之后的界面。<br>
+<img src="https://ae02.alicdn.com/kf/U60342368315f41bba10961ccf414fac7n.jpg" alt="100.png" loading="lazy"><br>
+新建一个库命名为   username.github.io。<br>
+<img src="https://ae03.alicdn.com/kf/U1c2e028d555941579d093506420e3c6fm.jpg" alt="101.png" loading="lazy"><br>
+下面去个人设置生成令牌。<br>
+<img src="https://ae03.alicdn.com/kf/U6a39058fbff449c3b95a214b9304a6b8V.jpg" alt="102.png" loading="lazy"><br>
+<img src="https://sc04.alicdn.com/kf/Udcf99960bd114e3fa1087d864304084b1.jpg" alt="103.png" loading="lazy"><br>
+<img src="https://ae03.alicdn.com/kf/U044fe8127d6c4b62b55a0fa8f444fd3cF.jpg" alt="104.png" loading="lazy"><br>
+<img src="https://ae03.alicdn.com/kf/Uf8b77060da654f8187a4dc9966d7673fl.jpg" alt="105.png" loading="lazy"><br>
+<img src="https://ae02.alicdn.com/kf/Ud47a5e09b54d4be185fdacd5381f1721G.jpg" alt="106.png" loading="lazy"></p>
 </blockquote>
 <h2 id="gridea设置">Gridea设置</h2>
 <blockquote>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.fangxiu.world</id>
     <title>方脩的博客</title>
-    <updated>2021-02-25T16:00:00.832Z</updated>
+    <updated>2021-02-25T18:30:22.197Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.fangxiu.world"/>
     <link rel="self" href="https://www.fangxiu.world/atom.xml"/>
@@ -38,6 +38,14 @@
 <blockquote>
 <p>用外链确实快，用别人的服务器加速自己的站点✅<br>
 不过主题作者没推荐，我这里推荐一个，<a href="http://tu.wlxiu.cn/">http://tu.wlxiu.cn/</a></p>
+</blockquote>
+<blockquote>
+<p>网易云音乐提供单曲、专辑、歌单、电台节目的外链播放器，将外链播放器放在论坛、网站上，都可以免费播放。<br>
+如何使用外链播放器？<br>
+1.在网页版（<a href="https://music.163.com/">https://music.163.com/</a>）进入单曲、歌单、专辑、电台节目页面后，点击 “生成外链播放器” 链接。<br>
+2.歌单和专辑外链播放器可以选择大中小三种尺寸，单曲和电台节目可以选择中小两种尺寸。你可以选择最适合你网站设计的尺寸。<br>
+3.还可以选择是否要自动播放，打上勾后，别人访问网站时播放器会自动开始播放。<br>
+4.最后将播放器的代码黏贴到你的网站上，大功告成！</p>
 </blockquote>
 <blockquote>
 <p>写一下我绑定域名时遇到的问题，<br>
@@ -153,7 +161,11 @@
         <link href="https://www.fangxiu.world/post/blog-1/">
         </link>
         <updated>2021-02-23T13:37:24.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
+        <content type="html"><![CDATA[<iframe  class="music" frameborder="no" src="//music.163.com/outchain/player?type=2&id=1808556594&auto=0&height=90"></iframe>
+<div class="tvcontainer">
+<iframe class="tv" src="//player.bilibili.com/player.html?bvid=BV1mT4y1K72h&cid=276667783&page=1" scrolling="no" border="0" frameborder="no" framespacing="0"></iframe>
+</div>
+<blockquote>
 <p>不知道写点什么，放张我老婆图片吧。<br>
 <img src="https://s3.ax1x.com/2021/02/21/yT3BN9.jpg" alt="yT3BN9.jpg" loading="lazy"><br>
 天依😘，我永远的15岁宝藏少女✅</p>

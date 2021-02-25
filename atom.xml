@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.fangxiu.world</id>
     <title>方脩的博客</title>
-    <updated>2021-02-24T16:54:34.492Z</updated>
+    <updated>2021-02-25T04:26:19.412Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.fangxiu.world"/>
     <link rel="self" href="https://www.fangxiu.world/atom.xml"/>
@@ -18,6 +18,26 @@
         <updated>2021-02-28T14:31:45.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
 <p>不知不觉，已经大二了，回想起这一年半，总觉得有些闹心。英语一直不好，还不时逃课，学习没搞好，对象也没有，还真是失败呢。</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fog主题使用帮助]]></title>
+        <id>https://www.fangxiu.world/post/fog-theme-help/</id>
+        <link href="https://www.fangxiu.world/post/fog-theme-help/">
+        </link>
+        <updated>2021-02-24T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>请先看主题作者的使用帮助，我主要写一下自己遇到的问题。</p>
+</blockquote>
+<blockquote>
+<p>文章作者：Ericam_<br>
+原文链接：<a href="https://ericam.top/post/fog-zhu-ti-shi-yong-bang-zhu/">https://ericam.top/post/fog-zhu-ti-shi-yong-bang-zhu/</a><br>
+版权声明：本博客所有文章除特别声明外，均采用BY-NC-SA 许可协议。转载请注明出处！</p>
+</blockquote>
+<blockquote>
+<p>用外链确实快，用别人的服务器加速自己的站点✅<br>
+不过主题作者没推荐，我这里推荐一个，<a href="http://tu.wlxiu.cn/index.html">http://tu.wlxiu.cn/index.html</a></p>
 </blockquote>
 ]]></content>
     </entry>

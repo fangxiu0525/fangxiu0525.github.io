@@ -271,7 +271,7 @@
         <a onclick="showAaplayer()"><i style="font-size: 20px;"><img
                     src='https://www.fangxiu.world/media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
         <div class="avatar-border">
-            <img src="https://www.fangxiu.world/images/avatar.png?v=1614266586369" class="avatar">
+            <img src="https://www.fangxiu.world/images/avatar.png?v=1614268489228" class="avatar">
         </div>
         <div class="sitename">方脩的博客</div>
         <span class="describtion" data-text='["温故而知新"]'>&nbsp;</span>
@@ -641,7 +641,7 @@
                 <img src="' + talks[i].img + '" class="talkimg"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://www.fangxiu.world/images/avatar.png?v=1614266586369">\
+                        <img class="intro1" src="https://www.fangxiu.world/images/avatar.png?v=1614268489228">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -654,7 +654,7 @@
             <div class="talk" v-for="t in talks"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://www.fangxiu.world/images/avatar.png?v=1614266586369">\
+                        <img class="intro1" src="https://www.fangxiu.world/images/avatar.png?v=1614268489228">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -1024,7 +1024,7 @@
             </div>
             <div class="postinfo-detail">
                 <div class="postdate"><i class="fa fa-calendar"></i>2021-02-25</div>
-                <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
+                <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 2 min read</div>
                 <div class="posttag">
                     
                     <a data-pjax href="https://www.fangxiu.world/tag/pNlJPlGov/" class="postlink">
@@ -1057,6 +1057,35 @@
 <blockquote>
 <p>用外链确实快，用别人的服务器加速自己的站点✅<br>
 不过主题作者没推荐，我这里推荐一个，<a href="http://tu.wlxiu.cn/">http://tu.wlxiu.cn/</a></p>
+</blockquote>
+<blockquote>
+<p>写一下我绑定域名时遇到的问题，<br>
+绑定域名的话，你需要添加两条解析记录</p>
+<table>
+<thead>
+<tr>
+<th>主机记录</th>
+<th>记录类型</th>
+<th>记录值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>www</td>
+<td>CNAME</td>
+<td>username.github.io</td>
+</tr>
+<tr>
+<td>@</td>
+<td>CNAME</td>
+<td>username.github.io</td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+<blockquote>
+<p><img src="https://ae02.alicdn.com/kf/U03a5c2b57dd54a1b9dafa18d9759940dg.jpg" alt="00.png" loading="lazy"><br>
+最初，我不是上面那样设置，域名处填的 uesrname.github.io，CNAME处填的自己域名，这样我遇到了一些问题，很容易界面混乱❎。即使界面不混乱，主页点击文章是转场转场三色圆环动画消失❎，播放中的音乐播放器切换歌曲❎。当我把上面域名处改为自己域名时，这些问题就都消失了✅。不是很懂这个原理，但确实有效。</p>
 </blockquote>
 
             </div>

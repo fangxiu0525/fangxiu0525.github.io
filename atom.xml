@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.fangxiu.world</id>
+    <id>https://fangxiu.world</id>
     <title>方脩的博客</title>
-    <updated>2021-02-26T11:21:23.039Z</updated>
+    <updated>2021-02-26T12:12:42.510Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://www.fangxiu.world"/>
-    <link rel="self" href="https://www.fangxiu.world/atom.xml"/>
+    <link rel="alternate" href="https://fangxiu.world"/>
+    <link rel="self" href="https://fangxiu.world/atom.xml"/>
     <subtitle>华风夏韵，洛水天依。</subtitle>
-    <logo>https://www.fangxiu.world/images/avatar.png</logo>
-    <icon>https://www.fangxiu.world/favicon.ico</icon>
+    <logo>https://fangxiu.world/images/avatar.png</logo>
+    <icon>https://fangxiu.world/favicon.ico</icon>
     <rights>All rights reserved 2021, 方脩的博客</rights>
     <entry>
         <title type="html"><![CDATA[写在大二下学期开始]]></title>
-        <id>https://www.fangxiu.world/post/xue-qi-kai-shi/</id>
-        <link href="https://www.fangxiu.world/post/xue-qi-kai-shi/">
+        <id>https://fangxiu.world/post/xue-qi-kai-shi/</id>
+        <link href="https://fangxiu.world/post/xue-qi-kai-shi/">
         </link>
         <updated>2021-02-28T14:31:45.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -23,8 +23,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Fog主题使用帮助]]></title>
-        <id>https://www.fangxiu.world/post/fog-theme-help/</id>
-        <link href="https://www.fangxiu.world/post/fog-theme-help/">
+        <id>https://fangxiu.world/post/fog-theme-help/</id>
+        <link href="https://fangxiu.world/post/fog-theme-help/">
         </link>
         <updated>2021-02-24T16:00:00.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -80,8 +80,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Gridea+Github/Coding搭建个人静态博客]]></title>
-        <id>https://www.fangxiu.world/post/build-blog/</id>
-        <link href="https://www.fangxiu.world/post/build-blog/">
+        <id>https://fangxiu.world/post/build-blog/</id>
+        <link href="https://fangxiu.world/post/build-blog/">
         </link>
         <updated>2021-02-24T03:42:48.000Z</updated>
         <content type="html"><![CDATA[<h2 id="介绍">介绍</h2>
@@ -157,8 +157,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[第一篇博客]]></title>
-        <id>https://www.fangxiu.world/post/blog-1/</id>
-        <link href="https://www.fangxiu.world/post/blog-1/">
+        <id>https://fangxiu.world/post/blog-1/</id>
+        <link href="https://fangxiu.world/post/blog-1/">
         </link>
         <updated>2021-02-23T13:37:24.000Z</updated>
         <content type="html"><![CDATA[<iframe  class="music" frameborder="no" src="//music.163.com/outchain/player?type=2&id=1808556594&auto=1&height=90"></iframe>
@@ -174,8 +174,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://www.fangxiu.world/post/hello-gridea/</id>
-        <link href="https://www.fangxiu.world/post/hello-gridea/">
+        <id>https://fangxiu.world/post/hello-gridea/</id>
+        <link href="https://fangxiu.world/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>👏 欢迎使用 Gridea ！<br>

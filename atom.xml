@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fangxiu.world</id>
     <title>方脩的博客</title>
-    <updated>2021-03-01T13:42:54.903Z</updated>
+    <updated>2021-03-01T14:14:50.630Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fangxiu.world"/>
     <link rel="self" href="https://fangxiu.world/atom.xml"/>
@@ -18,6 +18,7 @@
         <updated>2021-03-01T10:10:43.000Z</updated>
         <content type="html"><![CDATA[<p>天行健，君子以自强不息。<br>
 地势坤，君子以厚德载物。</p>
+<p>无极生太极，太极生两仪，两仪生三才，三才生四象，四象生五行，五行生六合，六合生七星，七星生八卦，八卦生九宫，一切归十方。</p>
 ]]></content>
     </entry>
     <entry>

@@ -6,12 +6,12 @@
 using namespace std;
 
 int fn(int x);
-int find(int x, int d[]); 
+int find(int x, int d[]);
 
-int main(){
+int main() {
 // 1
-int n;
-cin&gt..." />
+    int n;
+  ..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://fangxiu.world/media/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fangxiu.world/styles/main.css">
@@ -279,7 +279,7 @@ cin&gt..." />
         <a onclick="showAaplayer()"><i style="font-size: 20px;"><img
                     src='https://fangxiu.world/media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
         <div class="avatar-border">
-            <img src="https://fangxiu.world/images/avatar.png?v=1615217528454" class="avatar">
+            <img src="https://fangxiu.world/images/avatar.png?v=1615218852141" class="avatar">
         </div>
         <div class="sitename">方脩的博客</div>
         <span class="describtion" data-text='["华风夏韵，洛水天依。"]'>&nbsp;</span>
@@ -649,7 +649,7 @@ cin&gt..." />
                 <img src="' + talks[i].img + '" class="talkimg"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://fangxiu.world/images/avatar.png?v=1615217528454">\
+                        <img class="intro1" src="https://fangxiu.world/images/avatar.png?v=1615218852141">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -662,7 +662,7 @@ cin&gt..." />
             <div class="talk" v-for="t in talks"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://fangxiu.world/images/avatar.png?v=1615217528454">\
+                        <img class="intro1" src="https://fangxiu.world/images/avatar.png?v=1615218852141">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -1054,45 +1054,49 @@ cin&gt..." />
 using namespace std;
 
 int fn(int x);
-int find(int x, int d[]); 
+int find(int x, int d[]);
 
-int main(){
+int main() {
 // 1
-int n;
-cin&gt;&gt;n;	//数组大小 。 
-int a[n];
-for(int i=0;i&lt;n;i++)cin&gt;&gt;a[i];	//录入数组数据。 
-int min=a[0];
-for(int i=0;i&lt;sizeof(a);i++)
-	if(a[i]&lt;min)
-		min=a[i]; // 循环求最小值 。 
-cout&lt;&lt;&quot;最小值：&quot;&lt;&lt;min&lt;&lt;endl;
+    int n;
+    cout&lt;&lt;&quot;定义数组大小：&quot;&lt;&lt;endl;
+    cin&gt;&gt;n;	//数组大小 。
+    int a[n];
+    cout&lt;&lt;&quot;输入数组数据&quot;&lt;&lt;endl;
+    for(int i=0; i&lt;n; i++)cin&gt;&gt;a[i];	//录入数组数据。
+    int min=a[0];
+    for(int i=0; i&lt;n; i++)
+        if(a[i]&lt;min)
+            min=a[i]; // 循环求最小值 。
+    cout&lt;&lt;&quot;最小值：&quot;&lt;&lt;min&lt;&lt;endl;
 
 //2
-int xd;
-cin&gt;&gt;xd;
-cout&lt;&lt;find(xd,a)&lt;&lt;endl;
+    int xd;
+    cin&gt;&gt;xd;
+    if(find(xd,a)!=0)cout&lt;&lt;&quot;查询数字的位置：&quot;&lt;&lt;find(xd,a)&lt;&lt;endl;	//查询函数求位置。
+    else cout&lt;&lt;&quot;查询数字不存在&quot;&lt;&lt;endl;
 
 // 3
-cout&lt;&lt;fn(5)&lt;&lt;endl; // 递归函数求阶乘。 
-return 0;
+    int fx;
+    cout&lt;&lt;&quot;计算阶乘&quot;&lt;&lt;endl;
+    cin&gt;&gt;fx;
+    cout&lt;&lt;fn(fx)&lt;&lt;endl; // 递归函数求阶乘。
+    return 0;
 }
 
-int fn(int x) // 递归函数。 
-{
-int fns;
-if(x&gt;0)fns = x * fn(x-1);
-	else fns = 1;
-return fns;
+int fn(int x) { // 递归函数。
+    int fns;
+    if(x&gt;0)fns = x * fn(x-1);
+    else fns = 1;
+    return fns;
 }
 
-int find(int x,int d[])	//查询函数。 
-{
-int i;
-for(i = 0;i&lt;sizeof(d);i++)if(x==d[i])break;
-return i+1;
-}
-</code></pre>
+int find(int x,int d[]) {	//查询函数。
+    int i;
+    for(i = 0; i&lt;sizeof(d); i++)if(x==d[i])break;
+    if(x==d[i])return i+1;
+    else return 0;	//是否存在判断。
+}</code></pre>
 
             </div>
             <hr style="width: 80%;">

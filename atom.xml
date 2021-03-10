@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fangxiu.world</id>
     <title>方脩的博客</title>
-    <updated>2021-03-10T04:23:07.636Z</updated>
+    <updated>2021-03-10T04:27:43.941Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fangxiu.world"/>
     <link rel="self" href="https://fangxiu.world/atom.xml"/>
@@ -152,17 +152,12 @@
         </link>
         <updated>2021-02-23T13:37:24.000Z</updated>
         <content type="html"><![CDATA[<iframe  class="music" frameborder="no" src="//music.163.com/outchain/player?type=2&id=1808556594&auto=1&height=90"></iframe>
-<div class="tvcontainer">
-<iframe class="tv" src="//player.bilibili.com/player.html?bvid=BV1mT4y1K72h&cid=276667783&page=1" scrolling="no" border="0" frameborder="no" framespacing="0"></iframe>
-</div>
 <blockquote>
 <p>不知道写点什么，放张我老婆图片吧。<br>
 <img src="https://s3.ax1x.com/2021/02/21/yT3BN9.jpg" alt="yT3BN9.jpg" loading="lazy"><br>
 天依😘，我永远的15岁宝藏少女✅</p>
 </blockquote>
-<div class="tvcontainer">
-<iframe class="tv" src="//player.bilibili.com/player.html?aid=286426239&bvid=BV1Qf4y1R7KM&cid=214653822&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>]]></content>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
